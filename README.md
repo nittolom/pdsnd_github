@@ -1,5 +1,5 @@
 ### Date created
-07/12/2020
+Sunday, July 12th 2020
 
 ### Bikeshare Project Repo
 
