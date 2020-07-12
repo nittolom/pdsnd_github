@@ -162,6 +162,7 @@ def user_stats(df):
         print('The earliest birth year in this dataset is',int(df['Birth Year'].min()))
         print('The most recent birth year in this dataset is',int(df['Birth Year'].max()))
         print('The most common birth year in this dataset is',int(df['Birth Year'].mode()[0]))
+    #Create an exception to handle lack of Washington Gender and Birth data
     except:
         print('Washington does not have Gender or Birth statistics')
     print("\nThis took %s seconds." % (time.time() - start_time))
