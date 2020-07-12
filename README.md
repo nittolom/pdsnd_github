@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+07/12/2020
 
-### Project Title
-Replace the Project Title
+### Bikeshare Project Repo
 
 ### Description
-Describe what your project is about and what it does
+This project creates a repository containing a python program which filters bike usage data across various cities 
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://stackoverflow.com
+https://www.udacity.com/
 
