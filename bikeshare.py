@@ -182,6 +182,7 @@ def main():
         rawdata='y'
         counter=5
         start=0
+        #Prompt the user if they want to see rawdata using while loops
         while rawdata=='y':
             data= input('Would you like to see the raw data? Enter yes or no: ')
             if data.lower() =='yes':
