@@ -17,6 +17,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    #Create a print statement for each invalid entry
     cityloop='y'
     monthloop='y'
     dayloop='y'
@@ -162,6 +163,7 @@ def user_stats(df):
         print('The earliest birth year in this dataset is',int(df['Birth Year'].min()))
         print('The most recent birth year in this dataset is',int(df['Birth Year'].max()))
         print('The most common birth year in this dataset is',int(df['Birth Year'].mode()[0]))
+    #Create an exception to handle lack of Washington Gender and Birth data
     except:
         print('Washington does not have Gender or Birth statistics')
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -180,6 +182,7 @@ def main():
         rawdata='y'
         counter=5
         start=0
+        #Prompt the user if they want to see rawdata using while loops
         while rawdata=='y':
             data= input('Would you like to see the raw data? Enter yes or no: ')
             if data.lower() =='yes':
